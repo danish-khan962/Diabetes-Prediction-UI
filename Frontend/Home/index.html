@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | DiabEase</title>
+    <!--Linking font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!--Linking css style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Linking Swiper JS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!--NAVIGATION BAR-->
+    <nav id="navBar">
+        <div class="navClass1">
+            <img src="../images/logo.png" alt="DiabEase.png" class="logo">
+            <span class="logoName">DiabEase</span>
+        </div>
+        <ul class="navClass2">
+            <li><a href="#" class="navLinks" id="home">Home</a></li>
+            <li><a href="#" class="navLinks">Prediction System</a></li>
+            <li><a href="#" class="navLinks">About Us</a></li>
+        </ul>
+        <div class="navClass3">
+            <a href="#"><button class="contribute">contribute</button></a>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--HERO SECTION-->
+    <main id="heroSection">
+        <div class="heroSection1">
+            <div class="heroSection1-left">
+                <h1 class="head">Predict Your Diabetes Risk with Ease</h1>
+                <p class="content">Take a few moments to enter your health information and get a reliable prediction of
+                    your risk for diabetes. Our system helps you make informed decisions about your health and
+                    lifestyle. Let's take the first step toward a healthier future.</p>
+                <a href="#"><button class="btn">Let's Check <i class="fa-solid fa-arrow-right"></i></button></a>
+            </div>
+            <div class="heroSection1-right">
+                <img src="../images/doctor illustration.png" alt="doctor illustration" class="banner">
+            </div>
+        </div>
+
+        <div class="heroSection2">
+            <div class="card-special">
+                <h2 class="title">Features we provide</h2>
+                <h2 class="head">Calculating <span
+                        style="font-family: 'Kalam', sans-serif; color: #82b2f5; font-weight: 600;">BMI</span> is easier
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </h2>
+                <p class="para">We calculate your BMI using your data like height, weight and age.</p>
+                <a href="#heroSection3"><button class="btn">Calculate BMI <i
+                            class="fa-solid fa-chevron-right"></i></button></a>
+            </div>
+            <div class="card">
+                <img src="../images/diet 1.png" alt="" class="cardIMG">
+                <h3 class="cardTITLE">food recommendation</h3>
+                <p class="cardPARA">We provide food recommendations according to your calorie requirements.</p>
+            </div>
+            <div class="card">
+                <img src="../images/chatbot 1.png" alt="" class="cardIMG">
+                <h3 class="cardTITLE">diabetes model</h3>
+                <p class="cardPARA">Doubt of having diabetes? Try this and let us predict it for you.</p>
+            </div>
+            <div class="card">
+                <img src="../images/stats-2 1.png" alt="" class="cardIMG">
+                <h3 class="cardTITLE">nutritional value</h3>
+                <p class="cardPARA">Get all nutritional value of your preferred dish.</p>
+            </div>
+        </div>
+
+        <div class="heroSection3" id="heroSection3">
+            <div class="BMIform">
+                <h1 class="BMIheading">BMI Calculator</h1>
+
+                <div class="inputs">
+                    <input type="number" id="age" placeholder="Enter your age">
+
+                    <input type="number" id="height" placeholder="Enter your height">
+
+                    <input type="number" id="weight" placeholder="Enter your weight">
+                </div>
+
+                <div class="results">
+                </div>
+
+                <div class="button">
+                    <button class="BMIbutton">Calculate BMI</button>
+                </div>
+
+                <div class="breaker"></div>
+            </div>
+
+            <div class="BMIinfoCard">
+                <div class="guide">
+                    <p class="title">BMI Manual</p>
+                    <ul>
+                        <li>Below 18.50 = UNDERWEIGHT</li>
+                        <li>18.50 to 24.90 = HEALTHY WEIGHT</li>
+                        <li>25 to 29.90 = OVERWEIGHT</li>
+                        <li>30 and above = OBESITY</li>
+                    </ul>
+                </div>
+                <div class="yourBMI"></div>
+            </div>
+        </div>
+
+        <div class="heroSection4">
+            <h1 class="heading">Predict Your Risk of Diabetes Today</h1>
+            <p class="content">Diabetes is a serious condition that affects millions worldwide. Early detection can help
+                you take control of your health before complications arise. By taking a simple risk assessment, you can
+                gain valuable insights into your likelihood of developing diabetes. The good news is that with early
+                intervention, lifestyle changes, and proper management, you can reduce your risk and improve your
+                overall well-being. Take the first step today and find out where you stand.</p>
+            <a href="#"><button class="btn">Predict now <i class="fa-solid fa-arrow-right"></i></button></a>
+        </div>
+
+        <div class="heroSection5">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+    
+                    <div class="swiper-slide">
+                        <img src="../images/leafy-greens.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">leafy greens</p>
+                            </a>
+                            <p class="foodAbout">Leafy greens are not only low in carbs but also high in essential nutrients
+                                like vitamins A, C, and K. These vegetables help regulate blood sugar by providing fiber,
+                                which slows down sugar absorption, making them an excellent choice for diabetes management.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/berries.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">berries</p>
+                            </a>
+                            <p class="foodAbout">Berries, including strawberries, raspberries, and blueberries, are rich in
+                                antioxidants, which help reduce oxidative stress. They’re also lower in sugar compared to
+                                other fruits and have a low glycemic index, helping to keep blood sugar levels stable.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/nuts.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">nuts</p>
+                            </a>
+                            <p class="foodAbout">Nuts like almonds and walnuts are excellent sources of healthy fats, fiber,
+                                and protein. They help slow down the digestion of carbohydrates, which can prevent sudden
+                                spikes in blood sugar. They are also good for heart health, a concern for people with
+                                diabetes.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/sweet potatoes.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">sweet potatoes</p>
+                            </a>
+                            <p class="foodAbout">Sweet potatoes are a fiber-rich, complex carbohydrate that provides slow-releasing energy. With a lower glycemic index than regular potatoes, they help maintain steady blood sugar levels, making them a better choice for diabetes.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/oats.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">Oats</p>
+                            </a>
+                            <p class="foodAbout">Oats, a whole grain rich in soluble fiber like beta-glucan, help improve insulin sensitivity and lower blood sugar. Steel-cut or rolled oats slow carbohydrate absorption, keeping blood sugar levels stable, making them a great breakfast for those with diabetes.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/chia seeds.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">Chia seeds</p>
+                            </a>
+                            <p class="foodAbout">Chia seeds are rich in omega-3 fatty acids, fiber, and protein. They help regulate blood sugar, promote fullness, and aid in digestion, making them ideal for managing diabetes and weight. Their antioxidants also support overall health and wellness.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/cinnamon.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">cinnamon</p>
+                            </a>
+                            <p class="foodAbout">Cinnamon is a potent spice that improves insulin sensitivity and regulates blood sugar. It contains compounds that mimic insulin’s effects and lower blood sugar. Adding cinnamon to meals or drinks enhances flavor while supporting blood glucose control.
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <img src="../images/garlic.png" alt="">
+                        <div class="bottom">
+                            <a href="">
+                                <p class="foodName">garlic</p>
+                            </a>
+                            <p class="foodAbout">Garlic is known for its health benefits, including improving blood sugar regulation. It contains allicin, which boosts insulin production and sensitivity. Adding garlic to meals enhances flavor while supporting metabolic health and better blood sugar management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </main>
+
+    <!--FOOTER SECTION-->
+    <footer id="footBar">
+        <div class="footLogo">
+            <img src="../images/logo.png" alt="">
+        </div>
+        <ul class="ul1">
+            <p class="links">links</p>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>Prediction System</li>
+            </a>
+            <a href="#">
+                <li>About Us</li>
+            </a>
+        </ul>
+
+        <ul class="ul2">
+            <p class="socials">socials</p>
+            <div class="socialBar">
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+            </div>
+        </ul>
+    </footer>
+
+    <!--Footer copyright label-->
+    <div class="footerLabel">Diabese Prediction System | @Danish Khan | @Kshitij Jindal | @Kunal Khandelwal | All copyrights <i class="fa-solid fa-copyright"></i> reserved 2025</div>
+
+    <!--linking Swiper JS script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--Linking JS-->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
