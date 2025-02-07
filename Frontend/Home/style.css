@@ -105,7 +105,7 @@ html, body{
     gap: 4rem;
     justify-content: center;
     padding: 4rem;
-    background: url(../images/wave.svg);
+    background: url(images/wave.svg);
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -279,7 +279,7 @@ html, body{
 /*Hero section 3*/
 /*BMI Calculator App*/
 .heroSection3{
-    background: url(../images/wave-2.svg);
+    background: url(images/wave-2.svg);
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -479,7 +479,7 @@ html, body{
     align-items: center;
     text-align: center;
     gap: 3rem;
-    background: url(../images/Grid\ Motion\ background\ _\ Grid\ background\ like\ decodingyt\,\ hifzan\ break\,\ tubesensi\,\ and\ algrow.jpg);
+    background: url(images/Grid\ Motion\ background\ _\ Grid\ background\ like\ decodingyt\,\ hifzan\ break\,\ tubesensi\,\ and\ algrow.jpg);
     object-fit: contain;
     background-repeat: no-repeat;
     background-position: center;
